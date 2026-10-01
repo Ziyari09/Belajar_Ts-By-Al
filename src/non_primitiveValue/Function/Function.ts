@@ -1,10 +1,21 @@
-let Name : string = "Al Kautsar Diprajaya"
+// Contoh Function
 
 // function greet(name: string ) : string {
 //     return `Hallo , ${name}!` ;
 // }
+// function greet(name: string ) : string {
+//     return `Hallo , ${name}!` ;
+// }
 function greet(name: string ) : string {
-    return `Hallo , ${name}!` ;
+    return `Hallo , ${name}`
+} 
+
+function nomor(angka : number) : number {
+    return angka
 }
 
-console.log(greet(Name))
+
+
+console.log(nomor(100));
+
+console.log(greet('Al Kautsar Diprajaya'));
